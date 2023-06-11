@@ -1,0 +1,16 @@
+
+POST http://localhost:3000/todos
+Content-Type: 'application/json'
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NDg0YTE5YWUxOTM1ZjdmY2M1Yzc0M2QiLCJmdWxsbmFtZSI6ImplYW4gRCIsImVtYWlsIjoiamVhbkBtaXUuZWR1IiwiaWF0IjoxNjg2NDE5ODkwfQ.bvvCMIVhrsppDLBClYQIcLhyMJUC3TeJbbr4WXK4GYg
+
+{
+    "title": "walk with mJesse",
+    "description": "as much you can",
+    "completed":false 
+}
+
+//6484ce3db58d40bedda277d8
+###
+GET http://localhost:3000/todos
+Content-Type: 'application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NDg0YzBhYTQ0M2NmNTcxZjBlNmU5YjciLCJmdWxsbmFtZSI6ImplYW4gRCIsImVtYWlsIjoiamVhbkRAbWl1LmVkdSIsImlhdCI6MTY4NjQyNzI1M30.PR9sV1g3DA-_TLFQbot4wdKTv9ogWD6URbzZ4am-d1U

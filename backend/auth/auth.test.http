@@ -1,0 +1,20 @@
+POST http://localhost:3000/auth/signup
+Content-Type: application/json
+
+{
+    "fullname": "jean D",
+    "email": "jeanD@miu.edu",
+    "password": "123"
+  
+}
+###
+
+POST http://localhost:3000/auth/signin
+Content-Type: application/json
+
+{
+   
+    "email": "jeanDa@miu.edu",
+    "password": "123"
+  
+}
